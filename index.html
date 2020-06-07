@@ -1,0 +1,73 @@
+<!-- Copyrights reserved by Zhehui WANG -->
+<!DOCTYPE html>
+<html>
+<title>ZHEHUI WANG</title>
+<meta name="viewport" content="width=720">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/zhehui.min.css">
+
+<body class=" w3-content" data-spy="scroll" data-target="#mySidenav" data-offset="20" id="mianx">
+    <nav class="w3-sidenav w3-collapse w3-animate-left" id="mySidenav"><br>
+        <div class="w3-container"><a onclick="w3_close()" class="w3-hide-large w3-right button-color w3-xxlarge"><i class="fa fa-remove"> </i> </a> </div>
+        <ul class="nav">
+            <li class="list-group-item"><a onclick="w3_close()" href="#main" class="w3-padding">ABOUT</a></li>
+            <li class="list-group-item"><a onclick="w3_close()" href="#topics" class="w3-padding">RESEARCH TOPICS</a> </li>
+            <li class="list-group-item"><a onclick="w3_close()" href="#publications" class="w3-padding">PUBLICATIONS</a></li>
+        </ul>
+        <p> <i class="fa fa-envelope-o"></i> <a href="mailto:zhehui@connect.ust.hk">zhehui@connect.ust.hk</a> </p>
+        <p> <i class="fa fa-copyright "></i> <a> Copyright 2016-<script>document.write(new Date().getFullYear())</script> </a></p>
+    </nav>
+    <main class="w3-main" id="main">
+        <header class="w3-container"> <span id="name"></span> </header>
+        <div class="start"> <span class="w3-opennav w3-hide-large w3-xxlarge button-color" onclick="w3_open()"> <i class="fa fa-bars"></i> </span> </div>       
+        <div class="section-container">           
+            <h2 class="sectitle ">ZHEHUI WANG</h2>
+            <div class="w3-section pintro"><div class="row">
+                <div class="col-md-1"><ul class="ul-dates">
+                    <li>
+                        <div class="dates"> <span>2016</span> <span>2010</span> </div>
+                        <div class="content">
+                            <h4>Ph.D., Electronic and Computer Engineering</h4>
+                            <h4> <a href="http://www.ust.hk" target="_blank">Hong Kong University of Science and Technology</a> </h4>
+                            <h4> <a href="http://www.ece.ust.hk/~eexu" target="_blank">Big Data System Lab</a>, Supervisor: <a href="http://www.ece.ust.hk/~eexu" target="_blank">Jiang Xu</a> </h4>
+                        </div>
+                    </li><li>
+                        <div class="dates"> <span>2010</span> <span>2006</span> </div>
+                        <div class="content">
+                            <h4>B.S., Electronic Engineering</h4>
+                            <h4> <a href="http://www.fudan.edu.cn/en/" target="_blank">Fudan University</a> </h4>
+                        </div>
+                    </li><li>
+                        <div class="dates"> <span>2006</span> <span>2003</span> </div>
+                        <div class="content">
+                            <h4>Senior High School</h4>
+                            <h4>High School Affiliated to <a href="http://en.sjtu.edu.cn/" target="_blank">Shanghai Jiaotong University</a><span class="spacewidth"></span></h4>
+                        </div>
+                    </li>                   
+                </ul></div>
+                <div class="col-md-2"> <img src="src/zhehui.jpg" alt="photo cannot be displayed"> </div>                   
+            </div></div> 
+        </div>
+        <div class="section-container" id="topics">
+            <h2 class="sectitle ">RESEARCH TOPICS</h2>
+            <div class="w3-section pintro"><ul class="ul-boxed3" id="topic_list"></ul></div>
+        </div>       
+        <div class="section-container" id="publications">
+            <h2 class="sectitle ">PUBLICATIONS</h2>
+            <div class="psel">
+                <button class="pubsel pubsela active" id="but0">All</button>
+                <button class="pubsel pubselj" id="but1">Journal</button>
+                <button class="pubsel pubselc" id="but2">Conference</button>
+                <button class="pubsel pubselb" id="but3">Book Chapter</button>
+            </div>
+            <div class="pitems" id="pub_list"></div>
+        </div>
+        <footer> <br> <br> </footer>
+    </main>
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="src/zhehui.json"></script>
+<script src="js/zhehui.min.js"></script>
+</html>
