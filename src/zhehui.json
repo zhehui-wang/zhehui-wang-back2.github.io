@@ -1,14 +1,5 @@
 var contents = [
     {
-      "topics": [
-        "System-level Floorplan Optimization of Network-on-chip",
-        "Processor-memory Communication Network for Chip Multiprocessors",
-        "High-speed Inter-chip/board Interconnects and Interfaces",
-        "Efficient Artificial Intelligence on Edge Devices",
-        "Low-Power Design of Neuromorphic Chip for Spiking Neural Network"
-      ]  
-    },
-    {
       "type": "Journal",
       "title": "Reduce Loss and Crosstalk in Integrated Silicon-Photonic Multistage Switching Fabrics through Multi-Chip Partition",
       "author": "Zhehui Wang, Zhifei Wang, Jiang Xu, <I> et.al. </I>;",
