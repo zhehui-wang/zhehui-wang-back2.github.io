@@ -338,6 +338,7 @@ html {
     margin: 0;
     padding: 0 0 5px 0;
     font-size: 18px;
+    font-family: Arial, sans-serif;
     font-weight: 600;
 }
 .pitems .item .pubmain .pubinfo {
