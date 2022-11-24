@@ -337,12 +337,14 @@ html {
 .pitems .item .pubmain .pubtitle {
     margin: 0;
     padding: 0 0 5px 0;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    font-weight: 600;
-}
+    font-size: 16px;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    
+} 
 .pitems .item .pubmain .pubinfo {
     font-size: middle;
+    color: #808080;
 }
 .pitems .item .pubmain .pubinfo a {
     color: #ec971f;
