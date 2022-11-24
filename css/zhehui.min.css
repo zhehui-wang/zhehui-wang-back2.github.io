@@ -321,22 +321,24 @@ html {
 }
 .pitems {
     width: 100%;
-    padding: 12px 0 0 0;
+    padding: 21px 0px 0px 0;
+	
     background: #fefefe;
 }
 .pitems .item .pubmain {
     background: #fefefe;
     position: relative;
     cursor: pointer;
-    padding: 10px 33px 23px 33px;
+    padding: 0px 33px 12px 33px;
+	margin: 0 0 0px 0;
     -webkit-box-shadow: 0 3px 3px -3px #ccc;
     box-shadow: 0 3px 3px -3px #ccc;
 }
 .pitems .item .pubmain .pubtitle {
     margin: 0;
-    padding: 0 0 15px 0;
+    padding: 0 0 5px 0;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .pitems .item .pubmain .pubinfo {
     font-size: middle;
@@ -346,7 +348,7 @@ html {
 }
 .pitems .item .pubdetails1 {
     background: #fff;
-    padding: 33px 33px 10px 33px;
+    padding: 15px 33px 15px 33px;
     margin: 0 0 10px 0;
     display: none;
     -webkit-box-shadow: 0 3px 3px -3px #ccc;
@@ -354,6 +356,7 @@ html {
 }
 .pitems .item .pubdetails1 .title1 {
     margin: 0;
+
 }
 .pitems .item .pubdetails1 .title1 a {
     float: right;
@@ -361,25 +364,26 @@ html {
 }
 .pitems .item .pubdetails1 .content1 {
     border-color: #00f;
+	margin: 6px 0px 0px 0px;
 }
 .pitems .item .pubdetails2 {
     background: #fff;
-    padding: 33px 33px 10px 33px;
+    padding: 15px 33px 15px 33px;
     margin: 0 0 10px 0;
     display: none;
-    height: 255px;
+    
     -webkit-box-shadow: 0 3px 3px -3px #ccc;
     box-shadow: 0 3px 3px -3px #ccc;
 }
 .pitems .item .pubdetails2 .title2 {
-    margin: 0 0 20px 0;
+    margin: 0 0 0 0;
 }
 .pitems .item .pubdetails2 .title2 a {
     float: right;
     color: #ec971f;
 }
 .pitems .item .pubdetails2 .content2 {
-    margin: 0;
+	margin: 12px 0px 0px 0px;
     padding: 0;
     padding-left: 5px;
     height: 150px;
@@ -398,19 +402,19 @@ h4.jlist::before {
     counter-increment: JCount;
     content: "[J" counter(JCount) "] ";
     color: #5cb85c;
-    font-weight: 800;
+    font-weight: 650;
 }
 h4.clist::before {
     counter-increment: CCount;
     content: "[C" counter(CCount) "] ";
     color: #5bc0de;
-    font-weight: 800;
+    font-weight: 650;
 }
 h4.blist::before {
     counter-increment: BCount;
     content: "[B" counter(BCount) "] ";
     color: #b97ebb;
-    font-weight: 800;
+    font-weight: 650;
 }
 h2,
 h4 {

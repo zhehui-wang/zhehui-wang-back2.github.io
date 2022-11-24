@@ -1,0 +1,31 @@
+var others = [
+    {
+      "type": "Journal",
+      "title": "Multidomain Inter/Intrachip Silicon Photonic Networks for Energy-Efficient Rack-Scale Computing Systems",
+      "author": "Peng Yang, Zhehui Wang, Zhifei Wang, Jiang Xu, <I>et.al.</I>;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), vol. 39, no. 3, pp. 626-639, March 2020.",    }, 
+    {
+      "type": "Journal",
+      "title": "Low-Loss High-Radix Integrated Optical Switch Networks for Software-Defined Servers",
+      "author": "Zhifei Wang, Zhehui Wang, Jiang Xu, <I>et.al.</I>;",
+      "source": "Journal of Lightwave Technology (JLT), vol. 34, no. 18, pp. 4364-4375, September 2016.",
+    }, 
+    {
+      "type": "Journal",
+      "title": "Coherent and Incoherent Crosstalk Noise Analyses in Interchip/Intrachip Optical Interconnection Networks",
+      "author": "Luan H. K. Duong, Zhehui Wang, Mahdi Nikdast, Jiang Xu, <I>et.al.</I>;",
+      "source": "IEEE Transactions on Very Large Scale Integration Systems (TVLSI), vol. 24, no. 7, pp. 2475-2487, July 2016.",
+    }, 
+    {
+      "type": "Journal",
+      "title": "System-Level Modeling and Analysis of Thermal Effects in WDM-Based Optical Networks-on-Chip",
+      "author": "Yaoyao Ye, Zhehui Wang, Peng Yang, Jiang Xu, <I>et.al.</I>;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), vol. 33, no. 11, pp. 1718-1731, November 2014.",
+    },
+    {
+      "type": "Conference",
+      "title": "Scalable Low-Power High-Performance Rack-Scale Optical Network",
+      "author": "Jun Feng, Zhehui Wang, <I>et.al.</I>;",
+      "source": "PHOTONICS in ACM/IEEE Supercomputing Conference (SC), USA, November 2019",
+    },
+  ]
