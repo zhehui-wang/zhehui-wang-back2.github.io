@@ -197,12 +197,12 @@ html {
     margin-top: 324px;
 	height : 150px;
 	width : 1.0em;
-	
+	 color: #000000;
 }
 
 .button-nav:hover {
-    color: #757575 !important;
-    background-color: #f1f1f1 !important;
+    color: #009688 !important;
+  
 	cursor: pointer;
     opacity: 0.8;
 }
@@ -283,6 +283,7 @@ html {
 
 .sectitle {
     border-bottom: 5px solid #ccc !important;
+	cursor:default;
 }
 
 .sectitle .chinese {
