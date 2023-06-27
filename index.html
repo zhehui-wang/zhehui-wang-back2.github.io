@@ -22,8 +22,9 @@
     </nav>
     <main class="w3-main" id="main" > 
         <button class="w3-opennav button-nav" onclick="navFun(1)" ontouchstart="navFun(1)" id ="toright"> <i class="fa fa-arrow-right"></i> </button> 
-        <script type="text/javascript">ZoomScreen();</script>   
-        <div class="section-container" id="introduction" onclick="navFun(0)" ontouchstart="navFun(0)">         
+        <div id="overlay" onclick="navFun(0)" ontouchstart="navFun(0)"></div>
+		<script type="text/javascript">ZoomScreen();</script>   
+        <div class="section-container" id="introduction">         
             <h2 class="sectitle">ZHEHUI WANG <span class="chinese">王哲汇</span></h2>
             <div class="pintro">
                 <div class="row">
@@ -32,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="section-container" id="publications"  onclick="navFun(0)" ontouchstart="navFun(0)">
+        <div class="section-container" id="publications">
             <h2 class="sectitle">PUBLICATIONS</h2>
             <div class="psel">
                 <button class="pubsel pubsela activea" id="but0" onclick="buttonFun(0)">All</button>
