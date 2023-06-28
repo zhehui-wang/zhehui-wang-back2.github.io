@@ -237,7 +237,6 @@ html {
 
 
 .list-group-item.active,
-.list-group-item.active:focus,
 .list-group-item.active:hover {
     background-color: #f1f1f1;
 	color: #009688;
