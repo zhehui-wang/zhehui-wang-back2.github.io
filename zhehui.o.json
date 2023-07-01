@@ -1,0 +1,325 @@
+var others = [
+    {
+      "type": "Conference",
+      "title": "MA-BERT: Towards Matrix Arithmetic-only BERT Inference by Eliminating Complex Non-Linear Functions",
+      "author": "Neo Wei Ming, Zhehui Wang, Cheng Liu, Rick Siow Mong Goh, Tao Luo;",
+      "source": "International Conference on Learning Representations (ICLR)",
+ 	  "info": "May 2023"  
+    },
+    {
+      "type": "Journal",
+      "title": "E3NE: An End-to-End Framework for Accelerating Spiking Neural Networks with Emerging Neural Encoding on FPGAs",
+      "author": "Daniel Gerlinghoff; Zhehui Wang; Xiaozhe Gu; Rick Siow Mong Goh; Tao Luo;",
+      "source": "IEEE Transactions on Parallel and Distributed Systems (TPDS)",   
+ 	  "info": "vol. 33, no. 11, pp. 3207-3219, Nov. 2022"  	  
+    }, 
+	{
+      "type": "Conference",
+      "title": "A Resource-Efficient Spiking Neural Network Accelerator Supporting Emerging Neural Encoding",
+      "author": "Daniel Gerlinghoff, Zhehui Wang, Xiaozhe Gu, Rick Siow Mong Goh, Tao Luo;",
+      "source": "Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE)",
+ 	  "info": "pp. 92-95, March 2022"  
+	},
+    {
+      "type": "Journal",
+      "title": "Modeling and Analysis of Optical Modulators Based on Free-Carrier Plasma Dispersion Effect",
+      "author": "Xuanqi Chen, Zhifei Wang, Yi-Shing Chang, Jiang Xu, Jun Feng, Peng Yang, Zhehui Wang, Luan H. K. Duong;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",    
+ 	  "info": "vol. 39, no. 5, pp. 977-990, May 2020"  
+	},   
+    {
+      "type": "Journal",
+      "title": "Chip-Specific Power Delivery and Consumption Co-Management for Process-Variation-Aware Manycore Systems Using Reinforcement Learning",
+      "author": "Haoran Li, Zhongyuan Tian, Jiang Xu, Rafael K. V. Maeda, Zhehui Wang, Zhifei Wang;",
+      "source": " IEEE Transactions on Very Large Scale Integration Systems (TVLSI)",    
+ 	  "info": "vol. 28, no. 5, pp. 1150-1163, May 2020"  
+	}, 
+    {
+      "type": "Journal",
+      "title": "Multidomain Inter/Intrachip Silicon Photonic Networks for Energy-Efficient Rack-Scale Computing Systems",
+      "author": "Peng Yang, Zhehui Wang, Zhifei Wang, Jiang Xu, Yi-Shing Chang, Xuanqi Chen, Rafael K. V. Maeda, Jun Feng;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",    
+ 	  "info": "vol. 39, no. 3, pp. 626-639, March 2020"    
+	},  
+    {
+      "type": "Journal",
+      "title": "A Cross-Layer Optimization Framework for Integrated Optical Switches in Data Centers",
+      "author": "Zhifei Wang, Peng Yang, Yi-Shing Chang, Jiang Xu, Xuanqi Chen, Zhehui Wang, Jun Feng;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",    
+ 	  "info": "vol. 39, no. 3, pp. 640-653, March 2020"  
+	},   
+	{
+      "type": "Conference",
+      "title": "Scalable Low-Power High-Performance Rack-Scale Optical Network",
+      "author": "Jun Feng, Zhehui Wang, Zhifei Wang, Xuanqi Chen, Shixi Chen, Jiaxu Zhang, Jiang Xu;",
+      "source": "IEEE/ACM Workshop on Photonics-Optics Technology Oriented Networking, Information and Computing Systems (PHOTONICS)",
+ 	  "info": "pp. 1-6, Nov. 2019"  
+	},
+	{
+      "type": "Conference",
+      "title": "Systematic Exploration of High-Radix Integrated Silicon Photonic Switches for Datacenters",
+      "author": "Zhifei Wang, Jun Feng, Xuanqi Chen, Zhehui Wang, Jiaxu Zhang, Shixi Chen, Jiang Xu;",
+      "source": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+ 	  "info": "pp. 1-8, Nov. 2019"     
+	},
+    {
+      "type": "Journal",
+      "title": "Crosstalk Noise Reduction Through Adaptive Power Control in Inter/Intra-Chip Optical Networks",
+      "author": "Luan H. K. Duong, Peng Yang, Zhifei Wang, Yi-Shing Chang, Jiang Xu, Zhehui Wang, Xuanqi Chen;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",    
+  	  "info": "vol. 38, no. 1, pp. 43-56, Jan. 2019"   
+	},    
+	{
+      "type": "Conference",
+      "title": "A Comprehensive Electro-Optical Model for Silicon Photonic Switches",
+      "author": "Xuanqi Chen, Zhifei Wang, Yi-Shing Chang, Jiang Xu, Peng Yang, Zhehui Wang, Luan H.K. Duong;",
+      "source": "IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+ 	  "info": "pp. 76-81, July 2018"      
+	},
+    {
+      "type": "Conference",
+      "title": "Cross-Layer Optimization for High-Radix Integrated Optical Switches in Data Centers",
+      "author": "Zhifei Wang, Peng Yang, Yi-Shing Chang, Jiang Xu, Xuanqi Chen, Zhehui Wang, Luan H.K. Duong;",
+      "source": "IEEE Optical Interconnects Conference (OI)",
+ 	  "info": "pp. 35-36, April 2018"     
+	},
+    {
+      "type": "Conference",
+      "title": "RSON: An Inter/Intra-Chip Silicon Photonic Network for Rack-Scale Computing Systems",
+      "author": "Peng Yang, Zhengbin Pang, Zhifei Wang, Zhehui Wang, Min Xie, Xuanqi Chen, Luan H. K. Duong, Jiang Xu;",
+      "source": "Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+ 	  "info": "pp. 1369-1374, March 2018"   
+	},
+    {
+      "type": "Journal",
+      "title": "High-Radix Nonblocking Integrated Optical Switching Fabric for Data Center",
+      "author": "Zhifei Wang, Jiang Xu, Peng Yang, Zhehui Wang, Luan H. K. Duong, Xuanqi Chen;",
+      "source": "Journal of Lightwave Technology (JLT)",    
+  	  "info": "vol. 35, no. 19, pp. 4268-4281, 1 Oct.1, 2017"     
+	},  
+	{
+      "type": "Conference",
+      "title": "Comparisons of a Novel Optical Space Switch and AWGR",
+      "author": "Zhifei Wang, Peng Yang, Jiang Xu, Xuanqi Chen, Zhehui Wang, and Luan H.K. Duong;",
+      "source": "Advanced Photonics (IPR, NOMA, Sensors, Networks, SPPCom, PS)",
+ 	  "info": "paper JTu4A.24, July 2017"      
+	},
+    {
+      "type": "Journal",
+      "title": "Alleviate Chip Pin Constraint for Multicore Processor by On/Off-Chip Power Delivery System Codesign",
+      "author": "Xuan Wang, Jiang Xu, Zhe Wang, Haoran Li, Zhehui Wang, Peng Yang, Luan H. K. Duong, Rafael K. V. Maeda, Zhifei Wang;",
+      "source": "ACM Journal on Emerging Technologies in Computing Systems (JETC)",    
+ 	  "info": "vol. 13(2), no. 19, pp. 1–24, April 2017"      
+	},   
+    {
+      "type": "Journal",
+      "title": "Energy-Efficient Power Delivery System Paradigms for Many-Core Processors",
+      "author": "Haoran Li, Xuan Wang, Jiang Xu, Zhe Wang, Rafael K. V. Maeda, Zhehui Wang, Peng Yang, Luan H. K. Duong, Zhifei Wang;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",    
+ 	  "info": "vol. 36, no. 3, pp. 449-462, March 2017"      
+	},  
+    {
+      "type": "Conference",
+      "title": "Modular Reinforcement Learning for Self-adaptive Energy Efficiency Optimization in Multicore System",
+      "author": "Zhe Wang, Zhongyuan Tian, Jiang Xu, Rafael K. V. Maeda, Haoran Li, Peng Yang, Zhehui Wang, Luan H. K. Duong, Zhifei Wang, Xuanqi Chen;",
+      "source": "Asia and South Pacific Design Automation Conference (ASP-DAC)",
+  	  "info": "pp. 684-689, Jan. 2017"     
+	},
+    {
+      "type": "Journal",
+      "title": "An Adaptive Process-Variation-Aware Technique for Power-Gating-Induced Power/Ground Noise Mitigation in MPSoC",
+      "author": "Zhe Wang, Xuan Wang, Jiang Xu, Haoran Li, Rafael K. V. Maeda, Zhehui Wang, Peng Yang, Luan H. K. Duong, Zhifei Wang;",
+      "source": "IEEE Transactions on Very Large Scale Integration Systems (TVLSI)",    
+  	  "info": "vol. 24, no. 12, pp. 3373-3386, Dec. 2016"     
+	},  
+	{
+      "type": "Journal",
+      "title": "Low-Loss High-Radix Integrated Optical Switch Networks for Software-Defined Servers",
+      "author": "Zhifei Wang, Zhehui Wang, Jiang Xu, Peng Yang, Luan H. k. Duong, Zhe Wang, Haoran Li, Rafael K. V. Maeda;",
+      "source": "Journal of Lightwave Technology (JLT)",    
+  	  "info": "vol. 34, no. 18, pp. 4364-4375, 15 Sept.15, 2016"     
+	}, 
+    {
+      "type": "Conference",
+      "title": "Inter/Intra-Chip Optical Interconnection Network: Opportunities, Challenges, and Implementations",
+      "author": "Peng Yang, Shigeru Nakamura, Kenichiro Yashiki, Zhehui Wang, Luan H. K. Duong, Zhifei Wang, Xuanqi Chen, Yuichi Nakamura, Jiang Xu;",
+      "source": "IEEE/ACM International Symposium on Networks-on-Chip (NOCS)",
+  	  "info": "pp. 1-8, Sept. 2016"     
+	},
+    {
+      "type": "Journal",
+      "title": "Coherent and Incoherent Crosstalk Noise Analyses in Interchip/Intrachip Optical Interconnection Networks",
+      "author": "Luan H. K. Duong, Zhehui Wang, Mahdi Nikdast, Jiang Xu, Peng Yang, Zhifei Wang, Zhe Wang, Rafael K. V. Maeda, Haoran Li, Xuan Wang, Sébastien Le Beux, Yvain Thonnart;",
+      "source": "IEEE Transactions on Very Large Scale Integration Systems (TVLSI)",    
+  	  "info": "vol. 24, no. 7, pp. 2475-2487, July 2016"     
+	},  
+	{
+      "type": "Conference",
+      "title": "JADE: A Heterogeneous Multiprocessor System Simulation Platform Using Recorded and Statistical Application Models",
+      "author": "Rafael K. V. Maeda, Peng Yang, Xiaowen Wu, Zhe Wang, Jiang Xu, Zhehui Wang, Haoran Li, Luan H. K. Duong, Zhifei Wang;",
+      "source": "International Workshop on Advanced Interconnect Solutions and Technologies for Emerging Computing Systems (AISTECS)",
+  	  "info": "Article 8, 1–6, Jan. 2016"     
+	},
+	{
+      "type": "Journal",
+      "title": "Crosstalk Noise in WDM-Based Optical Networks-on-Chip: A Formal Study and Comparison",
+      "author": "Mahdi Nikdast, Jiang Xu, Luan H. K. Duong, Xiaowen Wu, Xuan Wang, Zhehui Wang, Zhe Wang, Peng Yang, Yaoyao Ye, Qinfen Hao;",
+      "source": "IEEE Transactions on Very Large Scale Integration Systems (TVLSI)",    
+  	  "info": "vol. 23, no. 11, pp. 2552-2565, Nov. 2015"     
+	}, 
+	{
+      "type": "Journal",
+      "title": "An Analytical Study of Power Delivery Systems for Many-Core Processors Using On-Chip and Off-Chip Voltage Regulators",
+      "author": "Xuan Wang, Jiang Xu, Zhe Wang, Kevin J. Chen, Xiaowen Wu, Zhehui Wang, Peng Yang, Luan H. K. Duong;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",    
+ 	  "info": "vol. 34, no. 9, pp. 1401-1414, Sept. 2015"      
+	}, 
+	{
+      "type": "Journal",
+      "title": "An Inter/Intra-Chip Optical Network for Manycore Processors",
+      "author": "Xiaowen Wu, Jiang Xu, Yaoyao Ye, Xuan Wang, Mahdi Nikdast, Zhehui Wang, Zhe Wang;",
+      "source": "IEEE Transactions on Very Large Scale Integration Systems (TVLSI)",    
+  	  "info": "vol. 23, no. 4, pp. 678-691, April 2015"     
+	}, 
+	{
+      "type": "Conference",
+      "title": "Adaptively Tolerate Power-Gating-Induced Power/Ground Noise under Process Variations",
+      "author": "Zhe Wang, Xuan Wang, Jiang Xu, Xiaowen Wu, Zhehui Wang, Peng Yang, Luan H. K. Duong, Haoran Li, Rafael K. V. Maeda, Zhifei Wang;",
+      "source": "Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+  	  "info": "pp. 483-488, March 2015"     
+	},
+	{
+      "type": "Conference",
+      "title": "Coherent Crosstalk Noise Analyses in Ring-Based Optical Interconnects",
+      "author": "Luan H.K. Duong, Mahdi Nikdast, Jiang Xu, Zhehui Wang, Yvain Thonnart, Sébastien Le Beux, Peng Yang;",
+      "source": "Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+  	  "info": "pp. 501-506, March 2015"     
+	},
+    {
+      "type": "Journal",
+      "title": "Actively Alleviate Power Gating-Induced Power/Ground Noise Using Parasitic Capacitance of On-Chip Memories in MPSoC",
+      "author": "Xuan Wang, Jiang Xu, Wei Zhang, Xiaowen Wu, Yaoyao Ye, Zhehui Wang, Mahdi Nikdast, Zhe Wang;",
+      "source": "IEEE Transactions on Very Large Scale Integration Systems (TVLSI)",    
+  	  "info": "vol. 23, no. 2, pp. 266-279, Feb. 2015"     
+	}, 
+    {
+      "type": "Journal",
+      "title": "Fat-Tree-Based Optical Interconnection Networks under Crosstalk Noise Constraint",
+      "author": "Mahdi Nikdast, Jiang Xu, Luan H. K. Duong, Xiaowen Wu, Zhehui Wang, Xuan Wang, Zhe Wang;",
+      "source": "IEEE Transactions on Very Large Scale Integration Systems (TVLSI)",    
+  	  "info": "vol. 23, no. 1, pp. 156-169, Jan. 2015"     
+	},
+    {
+      "type": "Journal",
+      "title": "System-Level Modeling and Analysis of Thermal Effects in WDM-Based Optical Networks-on-Chip",
+      "author": "Yaoyao Ye, Zhehui Wang, Peng Yang, Jiang Xu, Xiaowen Wu, Xuan Wang, Mahdi Nikdast, Zhe Wang, Luan H. K. Duong;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",    
+  	  "info": "vol. 33, no. 11, pp. 1718-1731, Nov. 2014"     
+	}, 	
+    {
+      "type": "Conference",
+      "title": "A Systematic Network-on-Chip Traffic Modeling and Generation Methodology",
+      "author": "Zhe Wang, Weichen Liu, Jiang Xu, Xiaowen Wu, Zhehui Wang, Bin Li, Ravi Iyer, Ramesh Illikkal;",
+      "source": "Asia Pacific Conference on Circuits and Systems (APCCAS)",
+  	  "info": "pp. 675-678, Nov. 2014"     
+	},
+    {
+      "type": "Journal",
+      "title": "A Case Study of Signal-to-Noise Ratio in Ring-Based Optical Networks-on-Chip",
+      "author": "Luan H. K. Duong; Mahdi Nikdast; Sébastien Le Beux; Jiang Xu; Xiaowen Wu; Zhehui Wang; Peng Yang;",
+      "source": "IEEE Design & Test (D&T)",    
+  	  "info": "vol. 31, no. 5, pp. 55-65, Oct. 2014"     
+	}
+	, 
+    {
+      "type": "Conference",
+      "title": "CLAP: a Crosstalk and Loss Analysis Platform for Optical Interconnects",
+      "author": "Mahdi Nikdast, Luan H. K. Duong, Jiang Xu, Sébastien Le Beux, Xiaowen Wu, Zhehui Wang, Peng Yang, Yaoyao Ye;",
+      "source": "IEEE/ACM International Symposium on Networks-on-Chip (NoCS)",
+  	  "info": "pp. 172-173, Sept. 2014"     
+	},
+	    {
+      "type": "Journal",
+      "title": "SUOR: Sectioned Undirectional Optical Ring for Chip Multiprocessor",
+      "author": "Xiaowen Wu, Jiang Xu, Yaoyao Ye, Zhehui Wang, Mahdi Nikdast, Xuan Wang;",
+      "source": "ACM Journal on Emerging Technologies in Computing Systems (JETC)",    
+  	  "info": "vol. 10(4), no. 29, pp. 1–25, June 2014"     
+	}, 
+    {
+      "type": "Conference",
+      "title": "Characterizing Power Delivery Systems with On/Off-Chip Voltage Regulators for Many-Core Processors",
+      "author": "Xuan Wang, Jiang Xu, Zhe Wang, Kevin J. Chen, Xiaowen Wu, Zhehui Wang;",
+      "source": "Design, Automation & Test in Europe Conference & Exhibition (DATE)",    
+  	  "info": "pp. 1-4, March 2014"     
+	},
+    {
+      "type": "Journal",
+      "title": "On-chip Sensor Networks for Soft-Error Tolerant Real-Time Multiprocessor Systems-on-Chip",
+      "author": "Weichen Liu, Xuan Wang, Jiang Xu, Wei Zhang, Yaoyao Ye, Xiaowen Wu, Mahdi Nikdast, Zhehui Wang;",
+      "source": "ACM Journal on Emerging Technologies in Computing Systems (JETC)",    
+  	  "info": "vol. 10(2), no. 15, pp. 1–20, March 2014"     
+	},
+    {
+      "type": "Journal",
+      "title": "Systematic Analysis of Crosstalk Noise in Folded-Torus-Based Optical Networks-on-Chip",
+      "author": "Mahdi Nikdast, Jiang Xu, Xiaowen Wu, Wei Zhang, Yaoyao Ye, Xuan Wang, Zhehui Wang, Zhe Wang;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",    
+  	  "info": "vol. 33, no. 3, pp. 437-450, March 2014"     
+	}, 
+	{
+      "type": "Journal",
+      "title": "Formal Worst-Case Analysis of Crosstalk Noise in Mesh-Based Optical Networks-on-Chip",
+      "author": "Yiyuan Xie, Mahdi Nikdast, Jiang Xu, Xiaowen W, Wei Zhang, Yaoyao Ye, Xuan Wang, Zhehui Wang, Weichen Liu;",
+      "source": "IEEE Transactions on Very Large Scale Integration Systems (TVLSI)",    
+  	  "info": "vol. 21, no. 10, pp. 1823-1836, Oct. 2013"     
+	}, 
+	{
+      "type": "Journal",
+      "title": "3-D Mesh-Based Optical Network-on-Chip for Multiprocessor System-on-Chip",
+      "author": "Yaoyao Ye, Jiang Xu, Baihan Huang, Xiaowen Wu, Wei Zhang, Xuan Wang, Mahdi Nikdast, Zhehui Wang, Weichen Liu, Zhe Wang;",
+      "source": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",    
+ 	  "info": "vol. 32, no. 4, pp. 584-596, April 2013"      
+	}, 
+	{
+      "type": "Conference",
+      "title": "Active Power-Gating-Induced Power/Ground Noise Alleviation Using Parasitic Capacitance of On-Chip Memories",
+      "author": "Xuan Wang, Jiang Xu, Wei Zhang, Xiaowen Wu, Yaoyao Ye, Zhehui Wang, Mahdi Nikdast, Zhe Wang;",
+      "source": "Design, Automation & Test in Europe Conference & Exhibition (DATE)",
+  	  "info": "pp. 1221-1224, March 2013"     
+	},
+	{
+      "type": "Journal",
+      "title": "System-Level Modeling and Analysis of Thermal Effects in Optical Networks-on-Chip",
+      "author": "Yaoyao Ye, Jiang Xu, Xiaowen Wu, Wei Zhang, Xuan Wang, Mahdi Nikdast, Zhehui Wang, Weichen Liu;",
+      "source": "EEE Transactions on Very Large Scale Integration Systems (TVLSI)",    
+ 	  "info": "vol. 21, no. 2, pp. 292-305, Feb. 2013"      
+	},
+    {
+      "type": "Conference",
+      "title": "Thermal Analysis for 3D Optical Network-on-Chip Based on a Novel Low-Cost 6×6 Optical Router",
+      "author": "Yaoyao Ye, Jiang Xu, Xiaowen Wu, Wei Zhang, Weichen Liu, Mahdi Nikdast, Xuan Wang, Zhehui Wang, Zhe Wang;",
+      "source": "IEEE Optical Interconnects Conference (OI)",
+  	  "info": "pp. 110-111, May 2012"     
+	},
+    {
+      "type": "Conference",
+      "title": "A NoC Traffic Suite Based on Real Applications",
+      "author": "Weichen Liu, Jiang Xu, Xiaowen Wu, Yaoyao Ye,; Xuan Wang, Wei Zhang, Mahdi Nikdast, Zhehui Wang;",
+      "source": "IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+  	  "info": "pp. 66-71, July 2011"     
+	},
+    {
+      "type": "Conference",
+      "title": "Modeling and Analysis of Thermal Effects in Optical Networks-on-Chip",
+      "author": "Yaoyao Ye, Jiang Xu, Xiaowen Wu, Wei Zhang, Xuan Wang, Mahdi Nikdast, Zhehui Wang, Weichen Liu;",
+      "source": "IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+  	  "info": "pp. 254-259, July 2011"     
+	},
+	{
+      "type": "Conference",
+      "title": "A Hardware-Software Collaborated Method for Soft-Error Tolerant MPSoC",
+      "author": "Weichen Liu, Jiang Xu, Xuan Wang, Yu Wang, Wei Zhang, Yaoyao Ye, Xiaowen Wu, Mahdi Nikdast, Zhehui Wang;",
+      "source": "IEEE Computer Society Annual Symposium on VLSI (ISVLSI)",
+  	  "info": "pp. 260-265, July 2011"     
+	}
+]
